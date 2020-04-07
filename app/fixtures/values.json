@@ -5,16 +5,20 @@
     "fields": {
       "title": "Manifesto for Agile Software Development",
       "text_type": "VAL",
-      "message": "We are uncovering better ways of developing\nsoftware by doing it and helping others do it.\nThrough this work we have come to value:\n\nIndividuals and interactions over processes and tools\nWorking software over comprehensive documentation\nCustomer collaboration over contract negotiation\nResponding to change over following a plan\n\nThat is, while there is value in the items on\nthe right, we value the items on the left more."
+      "message": "We are uncovering better ways of developing\nsoftware by doing it and helping others do it.\nThrough this work we have come to value:\n\nIndividuals and interactions over processes and tools\nWorking software over comprehensive documentation\nCustomer collaboration over contract negotiation\nResponding to change over following a plan\n\nThat is, while there is value in the items on\nthe right, we value the items on the left more.",
+      "created_at": "2020-04-07 15:03:07",
+      "updated_at": "2020-04-07 15:03:07"
     }
   },
   {
-    "model": "myapp.Messages",
+    "model": "app.Messages",
     "pk": 2,
     "fields": {
       "title": "Principles behind the Agile Manifesto",
       "text_type": "PRN",
-      "message": "We follow these principles:\nOur highest priority is to satisfy the customer\nthrough early and continuous delivery\nof valuable software.\n\nWelcome changing requirements, even late in\ndevelopment. Agile processes harness change for\nthe customer's competitive advantage.\n\nDeliver working software frequently, from a\ncouple of weeks to a couple of months, with a\npreference to the shorter timescale.\n\nBusiness people and developers must work\ntogether daily throughout the project.\n\nBuild projects around motivated individuals.\nGive them the environment and support they need,\nand trust them to get the job done.\n\nThe most efficient and effective method of\nconveying information to and within a development\nteam is face-to-face conversation.\n\nWorking software is the primary measure of progress.\n\nAgile processes promote sustainable development.\nThe sponsors, developers, and users should be able\nto maintain a constant pace indefinitely.\n\nContinuous attention to technical excellence\nand good design enhances agility.\n\nSimplicity--the art of maximizing the amount\nof work not done--is essential.\n\nThe best architectures, requirements, and designs\nemerge from self-organizing teams.\n\nAt regular intervals, the team reflects on how\nto become more effective, then tunes and adjusts\nits behavior accordingly."
+      "message": "We follow these principles:\nOur highest priority is to satisfy the customer\nthrough early and continuous delivery\nof valuable software.\n\nWelcome changing requirements, even late in\ndevelopment. Agile processes harness change for\nthe customer's competitive advantage.\n\nDeliver working software frequently, from a\ncouple of weeks to a couple of months, with a\npreference to the shorter timescale.\n\nBusiness people and developers must work\ntogether daily throughout the project.\n\nBuild projects around motivated individuals.\nGive them the environment and support they need,\nand trust them to get the job done.\n\nThe most efficient and effective method of\nconveying information to and within a development\nteam is face-to-face conversation.\n\nWorking software is the primary measure of progress.\n\nAgile processes promote sustainable development.\nThe sponsors, developers, and users should be able\nto maintain a constant pace indefinitely.\n\nContinuous attention to technical excellence\nand good design enhances agility.\n\nSimplicity--the art of maximizing the amount\nof work not done--is essential.\n\nThe best architectures, requirements, and designs\nemerge from self-organizing teams.\n\nAt regular intervals, the team reflects on how\nto become more effective, then tunes and adjusts\nits behavior accordingly.",
+      "created_at": "2020-04-07 15:03:07",
+      "updated_at": "2020-04-07 15:03:07"
     }
   }
 ]

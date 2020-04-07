@@ -21,7 +21,10 @@ class AgileManifestoValues(APIView):
 
 
     def post(self, request):
-        request.data['text_type'] = TextType.VALUES
+        try:
+            request.data['text_type'] = TextType.VALUES
+        except AttributeError:
+            return Response(status=status.HTTP_400_BAD_REQUEST)
         serializer = MessagesSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()
@@ -37,7 +40,10 @@ class AgileManifestoPrinciples(APIView):
 
 
     def post(self, request):
-        request.data['text_type'] = TextType.PRINCIPLES
+        try:
+            request.data['text_type'] = TextType.PRINCIPLES
+        except AttributeError:
+            return Response(status=status.HTTP_400_BAD_REQUEST)
         serializer = MessagesSerializer(data=request.data)
         if serializer.is_valid():
             serializer.save()

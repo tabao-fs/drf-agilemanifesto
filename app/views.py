@@ -1,3 +1,12 @@
-from django.shortcuts import render
+from rest_framework.views import APIView
+from rest_framework.response import Response
 
-# Create your views here.
+
+class AgileManifestoValues(APIView):
+    def get(self, request):
+        return Response({'status': 'Ok'})
+
+
+class AgileManifestoPrinciples(APIView):
+    def get(self, request):
+        return Response({'status': 'Ok'})

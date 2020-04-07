@@ -3,7 +3,14 @@ from rest_framework.response import Response
 from rest_framework import status
 
 from app.models import Messages, TextType
-from app.serializers import MessagesSerializer
+from app.serializers import MessagesSerializer, AgileManifestoSerializers
+
+
+class AgileManifesto(APIView):
+    def get(self, request):
+        messages = Messages.objects.all()
+        serializer = AgileManifestoSerializers(messages, many=True)
+        return Response(serializer.data)
 
 
 class AgileManifestoValues(APIView):

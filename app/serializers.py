@@ -11,3 +11,8 @@ class MessagesSerializer(serializers.Serializer):
 
     def create(self, validated_data):
         return Messages.objects.create(**validated_data)
+
+
+class AgileManifestoSerializers(serializers.Serializer):
+    title = serializers.CharField(max_length=256)
+    message = serializers.CharField(style={'base_template': 'textarea.html'})
